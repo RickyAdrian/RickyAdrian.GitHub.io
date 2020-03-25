@@ -1,0 +1,157 @@
+body
+{
+    background: white;
+}
+
+
+ h1
+ {
+    border-top:black 5px solid;
+    border-bottom:black 5px solid;
+    width: 90px;
+}
+
+p
+{
+  font-style: oblique;
+}
+
+#numero-uno 
+{
+    width: 15%; 
+    height:auto;
+}
+
+div img 
+{
+  width: 15%; 
+  height:auto;
+  float: left;
+
+}
+
+
+#img1
+{
+  position: absolute;
+  top:150px;
+  left:10px;
+}
+
+#img2
+{
+  position: absolute;
+  top:320px;
+  left:10px;
+}
+
+#img3
+{
+  position: absolute;
+  top:525px;
+  left:10px;
+}
+
+#img4
+{
+  position: absolute;
+  top:740px;
+  left:10px;
+}
+#hdos1
+{
+  position: absolute;
+  top: 130;
+  left:250;
+}
+
+
+#hdos2
+{
+  position: absolute;
+  top: 300;
+  left:250;
+}
+
+
+#hdos3
+{
+  position: absolute;
+  top: 525;
+  left:250;
+}
+
+#hdos4
+{
+  position: absolute;
+  top: 720;
+  left:250;
+ 
+}
+
+#p1
+{
+  position: absolute;
+  top:180;
+  right: 760;
+
+}
+
+#p2
+{
+  position: absolute;
+  top:350;
+  right: 760;
+
+}
+
+#p3
+{
+  position: absolute;
+  top:770;
+  right: 760;
+
+}
+
+#p4
+{
+  position: absolute;
+  top:570;
+  right: 760;
+
+}
+
+
+
+#span1
+{
+  position: absolute;
+  top:157;
+  right: 760;
+
+}
+
+#span2
+{
+  position: absolute;
+  top:325;
+  right: 760;
+
+}
+
+#span3
+{
+  position: absolute;
+  top:550;
+  right: 760;
+
+}
+
+
+#span4
+{
+  position: absolute;
+  top:742;
+  right: 760;
+
+}

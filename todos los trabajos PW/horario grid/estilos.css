@@ -1,0 +1,106 @@
+div.contenedor
+{
+  display: grid;
+  grid-template-rows: 30px 100px 100px 100px 100px  ;
+  grid-template-columns: 200px 200px 200px 200px 200px 200px;
+  justify-content: center; 
+  
+  border-style: groove;
+  
+  
+  
+}
+ div.aa
+ {
+   background-color: yellow;
+    text-align: center;
+    border-style: groove;
+    font-weight: bolder;
+ }
+
+ div.a
+ {
+  display: grid;
+  text-align: center;
+  border-style: groove;
+  font-weight: bolder;
+ }
+ div.b
+ {
+  text-align: center;
+  border-style: groove;
+ }
+ div.contenedor .c 
+ {
+  text-align: center;
+  border-style: groove;
+ 
+ }
+ div.d
+ {
+  text-align: center;
+  border-style: groove;
+ }
+ div.f
+ {
+  text-align: center;
+  border-style: groove;
+ 
+ }
+ div.e
+ {
+  text-align: center;
+  border-style: groove;
+ }
+
+ div.pw
+ {
+  text-align: center;
+  border-style: groove;
+ }
+ div.des
+ {
+  text-align: center;
+  border-style: groove;
+ }
+ h1
+ {
+  text-align: center;
+ }
+.imagen
+{
+  display:block;
+margin:auto;
+}
+.sub1
+{
+  font-size: 20px;
+  font-weight: bolder;
+  
+}
+.sub1 .sub2
+{
+ color: red;
+}
+
+.metrologia
+{
+  font-weight: bolder;
+}
+
+.microcontroladores
+{
+  font-weight: bolder;
+}
+.tutoria
+{
+  font-weight: bolder;
+}
+.desarrollo
+{
+  font-weight: bolder;
+}
+.pagweb
+{
+  font-weight: bolder;
+}

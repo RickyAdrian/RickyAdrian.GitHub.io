@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="reloj.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="BoxTime"></div>
+    <div class="Tpm"></div>
+    
+
+    <script>
+        setInterval(Actualizar, 500);
+        function Actualizar(){
+            let time = new Date;
+            let Hrs = time.getHours();
+            let Min = time.getMinutes();
+            let Sec = time.getSeconds();
+            
+            if(Hrs > 12){
+                Hrs = Hrs -12;
+            }
+            if(Hrs == 0){
+                Hrs = 12;
+            }
+
+            if(Hrs >= 0){
+                document.querySelector("body").classList.add("verde");
+                document.querySelector(".BoxTime").classList.add("blanco");
+                document.querySelector(".Tpm").classList.add("blanco");
+            }
+            if(Hrs == 6){
+                document.querySelector("body").classList.add("negro");
+                document.querySelector(".BoxTime").classList.add("blanco");
+                document.querySelector(".Tpm").classList.add("blanco");
+            }
+            if(Hrs <= 12){
+                document.querySelector(".Tpm").textContent = "Pm";
+            }
+            if(Hrs == 0){
+                document.querySelector(".Tpm").textContent = "Am";
+            }
+
+            document.querySelector(".BoxTime").textContent = Hrs + " hr: " + Min + " min: " + Sec + " sec";   
+        }
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+body{
+    background-color: red;
+    text-align: center;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+}
+.BoxTime{
+    font-size: 50px;
+    margin-left: auto;
+    background-color: red;
+}
+.Tpm{
+    padding-left: 5px;
+    font-size: 50px;
+    margin-right: auto;
+    background-color: green;
+}
+.blanco{
+    background-color:red;
+}
+.verde{
+    background-color: red;
+}
+.negro{
+    background-color: black;
+}

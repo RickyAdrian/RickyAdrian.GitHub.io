@@ -1,0 +1,127 @@
+div.divGrande
+{
+   border-style:ridge;
+}
+
+
+div.div2 img
+{
+   
+   width:15%;
+   height: auto;
+   margin-right: 20px;
+   padding-bottom: 20px;
+   
+}
+
+
+div.div2 
+{
+   background-color: wheat;
+   display: flex;
+   flex-direction: row;
+   
+}
+
+.div2 *{
+flex-grow: 1;
+}
+
+div.div4
+{
+   background-color: honeydew;
+   text-align: center;
+}
+
+
+p.pepe
+{
+ color: midnightblue;
+}
+
+body
+{
+   background-image: url(https://www.tragaviajes.com/wp-content/uploads/Que-hacer-en-nueva-york-4.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+div.divGrande2
+{
+   background-color: violet;
+   border-style:dotted;
+}
+
+div.div6 img
+{
+   
+   width:15%;
+   height: auto;
+   margin-right: 20px;
+   
+}
+div.div6 
+{
+   background-color: wheat;
+   display: flex;
+   flex-direction: row;
+   
+}
+
+.div6 *{
+   flex-grow: 1;
+   }
+
+
+div.div8
+{
+   background-color: honeydew;
+   text-align: center;
+}
+
+div h2
+{
+   color: blue;
+  text-decoration: underline;
+   
+  
+}
+p.red
+{
+   color: red;
+}
+
+div.div7EtiquetaSola p
+{
+   color:black;
+   box-shadow:            5px 5px 5px 2px #000000;
+   max-width: 170px;
+   height: 90;
+   text-align: center;
+   background-color: white;
+   
+
+}
+
+div.div3EtiquetaSola p
+{
+   border-style:groove;
+   max-width: 80px;
+   padding-left:30px ;
+   color: red;
+   border-color: red;
+   text-align: center;
+   
+}
+
+
+
+
+
